@@ -2,6 +2,8 @@ from django.db import models
 
 
 class Quote(models.Model):
+    """Quote model."""
+
     quote = models.TextField()
     no_of_letters = models.IntegerField()
     no_of_vowels = models.IntegerField()

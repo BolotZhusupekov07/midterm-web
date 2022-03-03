@@ -10,7 +10,6 @@ DEBUG = int(config("DEBUG"))
 
 ALLOWED_HOSTS = config("ALLOWED_HOSTS").split()
 
-
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",

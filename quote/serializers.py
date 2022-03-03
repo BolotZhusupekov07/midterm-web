@@ -4,6 +4,8 @@ from .models import Quote
 
 
 class QuoteSerializer(serializers.ModelSerializer):
+    """Serializer of Quote model."""
+
     class Meta:
         model = Quote
         fields = [
